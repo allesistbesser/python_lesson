@@ -1,0 +1,8 @@
+let_dict=dict()
+sntnc1=input("Enter any sentence:")
+sntnc2="".join(set(sntnc1))
+
+for i in sntnc2:
+  num = sntnc1.count(i)
+  let_dict[i]=num
+print(let_dict)
